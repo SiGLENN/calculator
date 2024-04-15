@@ -120,10 +120,13 @@ buttons.forEach(button =>{
         else if (input == 'AC') { 
             clear() 
         }
+        else if (input == 'C') { 
+            clear() 
+        }
         else if (input == '=') { 
           
             if (!numberStored || !operatorStored) { 
-                alert('Error: no operation entered. Clearing data') 
+                alert('Syntax Error') 
                 clear()
             }
            
