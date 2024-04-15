@@ -1,7 +1,7 @@
 
 body {
     min-height: 100vh; 
-    background-image: linear-gradient(135deg, DarkSeaGreen 10%, black 90%);   
+    background-color: #cca90d;   
       
     text-align: center; 
     
@@ -19,11 +19,10 @@ body {
     grid-template-rows: repeat(6, 1fr);
     gap: 10px;
     
-    height: 550px;
-    width: 375px; 
+    height: 450px;
+    width: 275px; 
     
-    background-color: black;
-    border: 5px solid DarkSlateGray;
+    background-color: rgb(27, 27, 27);
     border-radius: 25px;
     
     margin: auto; 
@@ -41,14 +40,15 @@ body {
   }
   
       .number-on-screen {
-        font-size: 60px; 
+        font-size: 35px; 
         text-align: right;
-        color: white;
+        padding: 5px;
+        color: rgb(16, 122, 16);
         
         height: 75px; 
         width: 96%; 
   
-        background-color: black;
+        background-color: rgb(75, 74, 74);
         border-radius: 10px;
         border: none;  
     
@@ -82,9 +82,7 @@ body {
       .pad-button:active,
       .pad-button:hover {
         color: white;
-        background-color: #242729; 
-     
-        cursor: pointer; 
+        background-color: #242729;
   
         transition: all .25s;
         transition-timing-function: ease-in;
@@ -96,16 +94,15 @@ body {
       
       font-size: 40px; 
       color: #e6e6e6; 
-      background-color: MediumSeaGreen; 
+      background-color: #3c4043;  
       
-      cursor: pointer;
       
     }
   
       .pad-button-color:active,
       .pad-button-color:hover {
         color: white; 
-        background-color: #20603d; 
+        background-color: #454645; 
         
         transition: all .25s;
         transition-timing-function: ease-in;
